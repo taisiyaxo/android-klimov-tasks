@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="375dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="109dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Клавиатура для ввода номера телефона"
+        app:layout_constraintBottom_toTopOf="@+id/editSend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:inputType="textPersonName"
+        android:text="Search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editGo" />
+
+    <EditText
+        android:id="@+id/editGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionGo"
+        android:inputType="textPersonName"
+        android:text="Go"
+        app:layout_constraintBottom_toTopOf="@+id/editSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editDone" />
+
+    <EditText
+        android:id="@+id/editSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:inputType="textPersonName"
+        android:text="Send"
+        app:layout_constraintBottom_toTopOf="@+id/editNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:text="Next"
+        app:layout_constraintBottom_toTopOf="@+id/editDone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSend" />
+
+    <EditText
+        android:id="@+id/editDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="Meow"
+        android:inputType="textPersonName"
+        android:text="Done"
+        app:layout_constraintBottom_toTopOf="@+id/editGo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNext" />
+</androidx.constraintlayout.widget.ConstraintLayout>
