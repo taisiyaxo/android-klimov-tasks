@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings_cathouse" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_vacuum"
+            android:summary="@string/settings_vacuumcleaner_summary"
+            android:title="@string/settings_vacuumcleaner" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_floor"
+            android:summary="@string/settings_floor_summary"
+            android:title="@string/settings_floor" />
+
+        <ListPreference
+            android:dependency="pref_floor"
+            android:dialogTitle="@string/settings_floorDialogTitle"
+            android:entries="@array/floor_options"
+            android:entryValues="@array/floor_values"
+            android:key="pref_floors"
+            android:title="@string/settings_floors" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

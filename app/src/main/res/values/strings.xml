@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Settings app</string>
+    <string name="setting_title">Settings</string>
+    <string name="ringtone_title">Ringtone</string>
+    <string name="header_pref_title">Meow</string>
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_summary">Вкл. или выкл. сеть WiFi</string>
+    <string name="hints_title">Подсказки</string>
+    <string name="hints_summary">Показывать подсказки</string>
+    <string name="settings_cathouse">Кошкин дом</string>
+    <string name="settings_cathouse_summary">Этажность, техника</string>
+    <string name="settings_display">Презентация</string>
+    <string name="settings_displaySummary">Гости, подарки</string>
+    <string name="settings_notify">Уведомления</string>
+    <string name="settings_vacuumcleaner_summary">Пылесос</string>
+    <string name="settings_vacuumcleaner">Разрешение на использование пылесоса</string>
+    <string name="settings_floor_summary">Этажность</string>
+    <string name="settings_floor">Разрешить использовать несколько этажей</string>
+    <string name="settings_floorDialogTitle">Количество этажей</string>
+    <string name="settings_floors">Выберите количество этажей</string>
+
+
+</resources>

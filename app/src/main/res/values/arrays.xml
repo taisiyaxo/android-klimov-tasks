@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="floor_options">
+        <item>пол</item>
+        <item>гладильная доска</item>
+        <item>полка</item>
+        <item>шкаф</item>
+    </string-array>
+    <string-array name="floor_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
