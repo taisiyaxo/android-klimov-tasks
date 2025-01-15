@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <activity
+        android:name=".SecondActivity"
+        android:label="@string/title_activity_second" >
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <action android:name="ru.alexanderklimov.Browser" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <data android:scheme="http" />
+        </intent-filter>
+    </activity>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
